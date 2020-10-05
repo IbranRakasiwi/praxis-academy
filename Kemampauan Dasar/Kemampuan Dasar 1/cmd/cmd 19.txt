@@ -1,0 +1,18 @@
+C:\Users\ASUS>attrib
+A                    C:\Users\ASUS\inittk.ini
+A                    C:\Users\ASUS\inst.ini
+A   H   I            C:\Users\ASUS\NTUSER.DAT
+A  SH                C:\Users\ASUS\ntuser.dat.LOG1
+A  SH                C:\Users\ASUS\ntuser.dat.LOG2
+A  SH                C:\Users\ASUS\NTUSER.DAT{77f97008-b811-11ea-b5da-e8d0fc246e00}.TxR.0.regtrans-ms
+A  SH                C:\Users\ASUS\NTUSER.DAT{77f97008-b811-11ea-b5da-e8d0fc246e00}.TxR.1.regtrans-ms
+A  SH                C:\Users\ASUS\NTUSER.DAT{77f97008-b811-11ea-b5da-e8d0fc246e00}.TxR.2.regtrans-ms
+A  SH                C:\Users\ASUS\NTUSER.DAT{77f97008-b811-11ea-b5da-e8d0fc246e00}.TxR.blf
+A  SH                C:\Users\ASUS\NTUSER.DAT{77f97009-b811-11ea-b5da-e8d0fc246e00}.TM.blf
+A  SH                C:\Users\ASUS\NTUSER.DAT{77f97009-b811-11ea-b5da-e8d0fc246e00}.TMContainer00000000000000000001.regtrans-ms
+A  SH                C:\Users\ASUS\NTUSER.DAT{77f97009-b811-11ea-b5da-e8d0fc246e00}.TMContainer00000000000000000002.regtrans-ms
+   SH                C:\Users\ASUS\ntuser.ini
+A                    C:\Users\ASUS\nuuid.ini
+A                    C:\Users\ASUS\useruid.ini
+
+Menampilkan, mengatur, atau menghapus atribut read-only, archive, system, dan hidden yang terpasang pada file atau folder

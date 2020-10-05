@@ -1,0 +1,33 @@
+C:\Users\ASUS>dir
+ Volume in drive C is OS
+ Volume Serial Number is E231-5F0C
+
+ Directory of C:\Users\ASUS
+
+10/05/2020  10:02 AM    <DIR>          .
+10/05/2020  10:02 AM    <DIR>          ..
+07/03/2020  06:20 PM    <DIR>          .android
+07/03/2020  06:18 PM    <DIR>          .BigNox
+09/14/2020  10:34 AM    <DIR>          3D Objects
+09/14/2020  10:34 AM    <DIR>          Contacts
+10/05/2020  10:23 AM    <DIR>          Desktop
+10/03/2020  11:36 PM    <DIR>          Documents
+10/03/2020  12:05 PM    <DIR>          Downloads
+09/14/2020  10:34 AM    <DIR>          Favorites
+07/03/2020  06:19 PM                66 inittk.ini
+07/03/2020  06:18 PM                41 inst.ini
+09/14/2020  10:34 AM    <DIR>          Links
+09/14/2020  10:34 AM    <DIR>          Music
+07/03/2020  06:18 PM    <DIR>          Nox_share
+07/03/2020  06:18 PM                45 nuuid.ini
+09/11/2020  06:27 AM    <DIR>          OneDrive
+09/19/2020  02:35 PM    <DIR>          Pictures
+09/14/2020  10:34 AM    <DIR>          Saved Games
+09/14/2020  10:34 AM    <DIR>          Searches
+07/03/2020  06:18 PM                53 useruid.ini
+09/14/2020  10:34 AM    <DIR>          Videos
+07/03/2020  06:18 PM    <DIR>          vmlogs
+               4 File(s)            205 bytes
+              19 Dir(s)  95,964,610,560 bytes free
+
+Melihat daftar file dan sub-direktori yang ada dalam sebuah direktori

@@ -1,0 +1,60 @@
+
+C:\Users\ASUS>ipconfig/all
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : LAPTOP-CEF22G9U
+   Primary Dns Suffix  . . . . . . . :
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+
+Ethernet adapter Ethernet:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : www.tendawifi.com
+   Description . . . . . . . . . . . : Realtek PCIe FE Family Controller
+   Physical Address. . . . . . . . . : 04-D4-C4-EA-98-EF
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter
+   Physical Address. . . . . . . . . : 1A-D0-FC-24-46-F0
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Local Area Connection* 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter #2
+   Physical Address. . . . . . . . . : 2A-D0-FC-24-46-F0
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Qualcomm Atheros AR956x Wireless Network Adapter
+   Physical Address. . . . . . . . . : E8-D0-FC-24-46-F0
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::dd10:1450:a087:91a7%12(Preferred)
+   IPv4 Address. . . . . . . . . . . : 192.168.1.48(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : Monday, October 5, 2020 10:19:12 AM
+   Lease Expires . . . . . . . . . . : Tuesday, October 6, 2020 10:19:09 AM
+   Default Gateway . . . . . . . . . : fe80::1%12
+                                       192.168.1.1
+   DHCP Server . . . . . . . . . . . : 192.168.1.1
+   DHCPv6 IAID . . . . . . . . . . . : 216584444
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-26-88-D5-BC-04-D4-C4-EA-98-EF
+   DNS Servers . . . . . . . . . . . : fe80::1%12
+                                       192.168.1.1
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+	
+Menampilkan konfigurasi koneksi

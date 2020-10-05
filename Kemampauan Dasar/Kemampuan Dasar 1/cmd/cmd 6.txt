@@ -1,0 +1,562 @@
+C:\Users\ASUS>ipconfig/displaydns
+
+Windows IP Configuration
+
+    id.video.search.yahoo.com
+    ----------------------------------------
+    Record Name . . . . . : id.video.search.yahoo.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 3395
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 106.10.218.137
+
+
+    array511.prod.do.dsp.mp.microsoft.com
+    ----------------------------------------
+    Record Name . . . . . : array511.prod.do.dsp.mp.microsoft.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 2535
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 52.184.213.21
+
+
+    oauthaccountmanager.googleapis.com
+    ----------------------------------------
+    Record Name . . . . . : oauthaccountmanager.googleapis.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 41
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 172.217.194.95
+
+
+    r.search.yahoo.com
+    ----------------------------------------
+    Record Name . . . . . : r.search.yahoo.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 3395
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 106.10.218.137
+
+
+    cc.bingj.com
+    ----------------------------------------
+    Record Name . . . . . : cc.bingj.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 3396
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 204.79.197.219
+
+
+    www.googleapis.com
+    ----------------------------------------
+    Record Name . . . . . : www.googleapis.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 189
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 172.217.194.95
+
+
+    Record Name . . . . . : www.googleapis.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 189
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 74.125.24.95
+
+
+    id.images.search.yahoo.com
+    ----------------------------------------
+    Record Name . . . . . : id.images.search.yahoo.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 3396
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 106.10.218.137
+
+
+    content-autofill.googleapis.com
+    ----------------------------------------
+    Record Name . . . . . : content-autofill.googleapis.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 66
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 172.217.194.95
+
+
+    ebsoft.web.id
+    ----------------------------------------
+    Record Name . . . . . : ebsoft.web.id
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 3397
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 128.199.169.70
+
+
+    www.modalsemangat.com
+    ----------------------------------------
+    Record Name . . . . . : www.modalsemangat.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 3397
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 103.253.214.7
+
+
+    jalantikus.com
+    ----------------------------------------
+    Record Name . . . . . : jalantikus.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 3372
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 209.58.176.154
+
+
+    ctldl.windowsupdate.com
+    ----------------------------------------
+    Record Name . . . . . : ctldl.windowsupdate.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 2695
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 117.18.232.240
+
+
+    upload.wikimedia.org
+    ----------------------------------------
+    Record Name . . . . . : upload.wikimedia.org
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 850
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 103.102.166.240
+
+
+    assets.jalantikus.com
+    ----------------------------------------
+    Record Name . . . . . : assets.jalantikus.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 3373
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 209.58.182.241
+
+
+    www.komputertips.com
+    ----------------------------------------
+    Record Name . . . . . : www.komputertips.com
+    Record Type . . . . . : 5
+    Time To Live  . . . . : 83
+    Data Length . . . . . : 8
+    Section . . . . . . . : Answer
+    CNAME Record  . . . . : komputertips.com
+
+
+    Record Name . . . . . : komputertips.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 83
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 139.180.221.12
+
+
+    id.wikipedia.org
+    ----------------------------------------
+    Record Name . . . . . : id.wikipedia.org
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 3396
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 103.102.166.224
+
+
+    www.google.com
+    ----------------------------------------
+    Record Name . . . . . : www.google.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 29
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 74.125.200.105
+
+
+    Record Name . . . . . : www.google.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 29
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 74.125.200.99
+
+
+    Record Name . . . . . : www.google.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 29
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 74.125.200.104
+
+
+    Record Name . . . . . : www.google.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 29
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 74.125.200.103
+
+
+    Record Name . . . . . : www.google.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 29
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 74.125.200.106
+
+
+    Record Name . . . . . : www.google.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 29
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 74.125.200.147
+
+
+    geo.prod.do.dsp.mp.microsoft.com
+    ----------------------------------------
+    Record Name . . . . . : geo.prod.do.dsp.mp.microsoft.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 2430
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 52.139.177.20
+
+
+    pgl.yoyo.org
+    ----------------------------------------
+    Record Name . . . . . : pgl.yoyo.org
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 1167
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 213.230.210.230
+
+
+    id.search.yahoo.com
+    ----------------------------------------
+    Record Name . . . . . : id.search.yahoo.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 3387
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 106.10.218.137
+
+
+    id.yahoo.com
+    ----------------------------------------
+    Record Name . . . . . : id.yahoo.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 3390
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 202.165.107.50
+
+
+    Record Name . . . . . : id.yahoo.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 3390
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 202.165.107.49
+
+
+    winpoin.com
+    ----------------------------------------
+    Record Name . . . . . : winpoin.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 3396
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 188.166.251.157
+
+
+    ocsp.digicert.com
+    ----------------------------------------
+    Record Name . . . . . : ocsp.digicert.com
+    Record Type . . . . . : 5
+    Time To Live  . . . . : 2771
+    Data Length . . . . . : 8
+    Section . . . . . . . : Answer
+    CNAME Record  . . . . : cs9.wac.phicdn.net
+
+
+    Record Name . . . . . : cs9.wac.phicdn.net
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 2771
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 117.18.237.29
+
+
+    api.jalantikus.com
+    ----------------------------------------
+    Record Name . . . . . : api.jalantikus.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 3408
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 209.58.182.225
+
+
+    meta.wikimedia.org
+    ----------------------------------------
+    Record Name . . . . . : meta.wikimedia.org
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 850
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 103.102.166.224
+
+
+    www.niagahoster.co.id
+    ----------------------------------------
+    Record Name . . . . . : www.niagahoster.co.id
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 94
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 104.18.113.100
+
+
+    Record Name . . . . . : www.niagahoster.co.id
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 94
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 104.18.114.100
+
+
+    dosenit.com
+    ----------------------------------------
+    Record Name . . . . . : dosenit.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 14190
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 104.227.245.154
+
+
+    login.live.com
+    ----------------------------------------
+    Record Name . . . . . : login.live.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 2331
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 40.126.12.99
+
+
+    Record Name . . . . . : login.live.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 2331
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 40.90.137.126
+
+
+    Record Name . . . . . : login.live.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 2331
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 40.90.23.154
+
+
+    Record Name . . . . . : login.live.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 2331
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 40.90.23.206
+
+
+    Record Name . . . . . : login.live.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 2331
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 40.90.137.125
+
+
+    Record Name . . . . . : login.live.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 2331
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 40.90.137.120
+
+
+    Record Name . . . . . : login.live.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 2331
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 20.190.140.98
+
+
+    Record Name . . . . . : login.live.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 2331
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 40.90.23.247
+
+
+    Record Name . . . . . : login.live.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 2331
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 40.90.137.127
+
+
+    Record Name . . . . . : login.live.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 2331
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 40.126.12.33
+
+
+    Record Name . . . . . : login.live.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 2331
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 40.126.12.100
+
+
+    Record Name . . . . . : login.live.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 2331
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 20.190.140.100
+
+
+    Record Name . . . . . : login.live.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 2331
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 40.90.137.124
+
+
+    Record Name . . . . . : login.live.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 2331
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 20.190.140.99
+
+
+    Record Name . . . . . : login.live.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 2331
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 40.126.12.34
+
+
+    Record Name . . . . . : login.live.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 2331
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 40.126.12.35
+
+
+    praxisacademy.id
+    ----------------------------------------
+    Record Name . . . . . : praxisacademy.id
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 11014
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 103.247.11.203
+
+
+    clients4.google.com
+    ----------------------------------------
+    Record Name . . . . . : clients4.google.com
+    Record Type . . . . . : 5
+    Time To Live  . . . . : 78
+    Data Length . . . . . : 8
+    Section . . . . . . . : Answer
+    CNAME Record  . . . . : clients.l.google.com
+
+
+    Record Name . . . . . : clients.l.google.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 78
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 74.125.200.113
+
+
+    Record Name . . . . . : clients.l.google.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 78
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 74.125.200.100
+
+
+    Record Name . . . . . : clients.l.google.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 78
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 74.125.200.101
+
+
+    Record Name . . . . . : clients.l.google.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 78
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 74.125.200.139
+
+
+    Record Name . . . . . : clients.l.google.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 78
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 74.125.200.102
+
+
+    Record Name . . . . . : clients.l.google.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 78
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 74.125.200.138
+
+
+    en.wikipedia.org
+    ----------------------------------------
+    Record Name . . . . . : en.wikipedia.org
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 847
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 103.102.166.224
+
+Menampilkan konten DNS cache

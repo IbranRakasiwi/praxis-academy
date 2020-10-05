@@ -1,0 +1,8 @@
+C:\Users\ASUS>getmac
+
+Physical Address    Transport Name
+=================== ==========================================================
+04-D4-C4-EA-98-EF   Media disconnected
+E8-D0-FC-24-46-F0   \Device\Tcpip_{532DC946-6EDE-4A3F-B2F9-F0EED292A9BA}
+
+Menampilkan alamat MAC dari adaptor jaringan pengguna

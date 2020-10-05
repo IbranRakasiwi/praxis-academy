@@ -1,0 +1,24 @@
+C:\Users\ASUS>netsh wlan show profiles
+
+Profiles on interface Wi-Fi:
+
+Group policy profiles (read only)
+---------------------------------
+    <None>
+
+User profiles
+-------------
+    All User Profile     : BIMAHACKERS #2
+    All User Profile     : PW LAZISNU
+    All User Profile     : Bangkitmedia.com
+    All User Profile     : CPH1605
+    All User Profile     : Sibyan Foundation
+    All User Profile     : Aku
+    All User Profile     : SP-641415
+    All User Profile     : IRI BILANG BOS
+    All User Profile     : OFFLINE
+    All User Profile     : BANGKIT_SAKJOSSE
+    All User Profile     : ITSC_B
+    All User Profile     : itsc jogja
+
+Menampilkan seluruh jaringan WiFi yang pernah terhubung ke perangkat

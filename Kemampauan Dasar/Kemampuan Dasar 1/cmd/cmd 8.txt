@@ -1,0 +1,62 @@
+C:\Users\ASUS>ipconfig/release
+
+Windows IP Configuration
+
+No operation can be performed on Ethernet while it has its media disconnected.
+No operation can be performed on Local Area Connection* 1 while it has its media disconnected.
+No operation can be performed on Local Area Connection* 2 while it has its media disconnected.
+
+Ethernet adapter Ethernet:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : www.tendawifi.com
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::dd10:1450:a087:91a7%12
+   Default Gateway . . . . . . . . . : fe80::1%12
+
+C:\Users\ASUS>ipconfig/renew
+
+Windows IP Configuration
+
+No operation can be performed on Ethernet while it has its media disconnected.
+No operation can be performed on Local Area Connection* 1 while it has its media disconnected.
+No operation can be performed on Local Area Connection* 2 while it has its media disconnected.
+
+Ethernet adapter Ethernet:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : www.tendawifi.com
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::dd10:1450:a087:91a7%12
+   IPv4 Address. . . . . . . . . . . : 192.168.1.48
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : fe80::1%12
+                                       192.168.1.1
+
+Memperbarui semua koneksi

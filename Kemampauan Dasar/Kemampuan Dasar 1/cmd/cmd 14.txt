@@ -1,0 +1,48 @@
+C:\Users\ASUS>defrag
+Microsoft Drive Optimizer
+Copyright (c) Microsoft Corp.
+
+Description:
+
+        Optimizes and defragments files on local volumes to
+        improve system performance.
+
+Syntax:
+
+        defrag <volumes> | /C | /E <volumes> [<task(s)>] [/H] [/M [n] | [/U] [/V]] [/I n]
+
+        Where <task(s)> is omitted (traditional defrag), or as follows:
+                /A | [/D] [/K] [/L] | /O | /X
+
+        Or, to track an operation already in progress on a volume:
+        defrag <volume> /T
+
+Parameters:
+
+        Value   Description
+        /A      Perform analysis on the specified volumes.
+        /C      Perform the operation on all volumes.
+        /D      Perform traditional defrag (this is the default).  On a tiered volume
+                though, traditional defrag is performed only on the Capacity tier.
+        /E      Perform the operation on all volumes except those specified.
+        /G      Optimize the storage tiers on the specified volumes.
+        /H      Run the operation at normal priority (default is low).
+        /I n    Tier optimization would run for at most n seconds on each volume.
+        /K      Perform slab consolidation on the specified volumes.
+        /L      Perform retrim on the specified volumes.
+        /M [n]  Run the operation on each volume in parallel in the background.
+                At most n threads optimize the storage tiers in parallel.
+        /O      Perform the proper optimization for each media type.
+        /T      Track an operation already in progress on the specified volume.
+        /U      Print the progress of the operation on the screen.
+        /V      Print verbose output containing the fragmentation statistics.
+        /X      Perform free space consolidation on the specified volumes.
+
+Examples:
+
+        defrag C: /U /V
+        defrag C: D: /M
+        defrag C:\mountpoint /A /U
+        defrag /C /H /V
+
+Melakukan defragmentation
