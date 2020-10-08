@@ -33,4 +33,20 @@ Versi rilis python
 
 
 
-   
+   Cara mengistal python 3
+*bisa di istal secara manual yang ada di visual studio 
+    kalau sudah di dowdload tinggal cek 
+
+    $ python3 --version
+
+*selanjutnya kita mengistal  pip 3
+    caranya sebagai berikut :
+
+    $ sudo apt-get install python3-pip
+
+*selanjutnya kita menginstal jupyter leb
+    caranya sebagai berikut :
+
+    $ pip3 install jupyterlab
+
+demikian. salam sejahtera.
