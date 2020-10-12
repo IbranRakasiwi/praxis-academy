@@ -86,6 +86,7 @@ Ketik "bantuan", "hak cipta", "kredit" atau "lisensi" untuk informasi lebih lanj
 >>>
 
 **1 Bubble Sort**
+
 Yang pertama kita akan membahas bubble sort. Algoritma ini merupakan salah satu algoritma pengurutan yang paling sederhana, baik dalam hal pengertian maupun penerapannya.
 Berikut ini adalah gambaran dari algoritma bubble sort:
 
