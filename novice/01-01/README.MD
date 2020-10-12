@@ -1,6 +1,5 @@
 # AWAL PYTHON
-
-Hari ke 3: Python, Ekosistem Python dan Dasar-dasar Pemrograman Pembelajaran Materi dan Penjelasan
+HAri pertama 
 
 Bahasa pemrograman adalah bahasa baku yang terdiri dari sekumpulan peraturan untuk memerintah komputer. Bahasa pemrograman menurut tingkat kedekatannya dengan mesin komputer terdiri dari:
 
@@ -70,6 +69,21 @@ $ jupyter lab
 
 nah udah pada tahukan python itu apa?, pip, dan jupyter. dan udah pad tau jugakan cara instalnya.
 
+
+**mode interactive di Python**
+
+Python memiliki dua mode dasar: skrip dan interaktif. Mode normal adalah mode di mana file skrip dan .pyfile jadi dijalankan dalam interpreter Python. Mode interaktif adalah shell baris perintah yang memberikan umpan balik langsung untuk setiap pernyataan, saat menjalankan pernyataan yang sebelumnya dimasukkan dalam memori aktif. Saat baris baru dimasukkan ke penerjemah, program makan dievaluasi baik sebagian maupun seluruhnya.
+
+Mode interactive adalah cara yang baik untuk bermain-main dan mencoba variasi sintaks.
+
+Di macOS atau linux, buka terminal dan cukup ketik "python". Di Windows, buka prompt perintah dan ketik "py", atau mulai sesi Python interaktif dengan memilih "Python (baris perintah)", "IDLE", atau program serupa dari bilah tugas / menu aplikasi. IDLE adalah GUI yang menyertakan mode interaktif dan opsi untuk mengedit dan menjalankan file.
+
+Python harus mencetak sesuatu seperti ini:
+
+$ python
+Python 3.0b3 (r30b3: 66303, 8 Sep 2008, 14:01:02) [MSC v.1500 32 bit (Intel)] pada win32
+Ketik "bantuan", "hak cipta", "kredit" atau "lisensi" untuk informasi lebih lanjut.
+>>>
 
 
 
