@@ -28,11 +28,11 @@ Karena tugas kita ada beberapa diantaranya mengistal python, pip, jupyter. berik
 
 Pertama untuk mengecek python yang persi biasa sebagai berikut:
 
-$ python --version
+    $ python --version
 
 sedangkan untuk mngecek yang ke versi yang ke tiga sebagai berikut:
 
-$ python3 --version
+    $ python3 --version
 
 **cara mengistal pip**
 
