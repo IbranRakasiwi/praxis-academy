@@ -1,5 +1,5 @@
 # AWAL PYTHON
-HAri pertama 
+Hari pertama 
 
 Bahasa pemrograman adalah bahasa baku yang terdiri dari sekumpulan peraturan untuk memerintah komputer. Bahasa pemrograman menurut tingkat kedekatannya dengan mesin komputer terdiri dari:
 
@@ -34,7 +34,7 @@ sedangkan untuk mngecek yang ke versi yang ke tiga sebagai berikut:
 
 $ python3 --version
 
-** acara mengistal pip**
+**cara mengistal pip**
 
 kita cek terlebih dahulu apakah pip udah teristal apakah belum, caranya masih sama saja seperti python tadi. sebelum mwngistal pip, terlebih dahulu kita mencari tau apa sih pip itu?
 
