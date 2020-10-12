@@ -85,7 +85,113 @@ Python 3.0b3 (r30b3: 66303, 8 Sep 2008, 14:01:02) [MSC v.1500 32 bit (Intel)] pa
 Ketik "bantuan", "hak cipta", "kredit" atau "lisensi" untuk informasi lebih lanjut.
 >>>
 
+**1 Bubble Sort**
+Yang pertama kita akan membahas bubble sort. Algoritma ini merupakan salah satu algoritma pengurutan yang paling sederhana, baik dalam hal pengertian maupun penerapannya.
+Berikut ini adalah gambaran dari algoritma bubble sort:
+
+for i:=1 to Jumlah_data-1 do
+  for j:=i+1 to Jumlah_data do
+    if Data[i]>Data[j] then
+    begin
+      t:=Data[i];
+      Data[i]:=Data[j];
+      Data[j]:=t;
+    end;
+
+Kita misalkan memiliki 5 angka yang akan kita simpan kedalam variabel Data (Array).
+
+Dengan masing-masing nilai sebagai berikut:
+
+Data[1] := 3;
+Data[2] := 1;
+Data[3] := 4;
+Data[4] := 2;
+Data[5] := 6;
+
+**Quick Short**
+
+Algoritma quick short ditemukan oleh E. Hoare. Algoritma ini menggunakan metode rekursi sampai habis. Prinsipnya membagi data menjadi dua bagian yang sama (kiri dan kanan).
+
+Dimana data tengah menjadi pivot (pusat operasi). Kemudian kita akan mengumpukan data dengan nilai lebih kecil dari pivot disebelah kiri pivot, dan di kanan untuk yang lebih besar.
+
+Karena dimungkinkan bagian kiri dan kanan pivot tidak sama besarnya. maka dari itu tiap bagian di bagi menjadi dua lagi sehingga mempunyai pivot yang baru.
+
+baca:=0;
+pusat := A[(awal+akhir) div 2];
+kiri := awal;
+kanan := akhir;
+While kiri <= kanan Do
+  Begin
+  While A[kiri] < pusat Do
+  Inc(kiri);
+  While A[kanan] > pusat Do
+    Dec(kanan);
+    If kiri<=kanan Then
+      Begin
+      Ganti(A[kiri],A[kanan]);
+      Inc(kiri);
+      Dec(kanan);
+      Inc(baca);
+      End;
+  End;
+
+If kanan>awal Then
+  Urut(awal,kanan);
+  If akhir>kiri Then
+    Urut(kiri,akhir);
+    
+    
+Algoritma Quick Sort juga disebut juga dengan partition Exchange sort karena konsepnya membuat partisi-partisi, dan sort dilakukan per partisi.
 
 
+**Shell Sort**
 
+Prinsipnya hampir sama dengan Bubble Sort tetapi dioptmisisasi sehingga lebih cepat.
+
+Ditemukan oleh Donald Shell. prinsipnya adalah membandingkan data dengan jarak tertentu dalam array. Algoritma utamanya adalah sebagai berikut :
+
+baca:=0;
+For i:= (m Div 2) Downto 1 Do
+For j:= 1 To m-i Do
+  If A[j]>A[j+i] Then
+  Begin
+    Ganti(A[j],A[j+i]);
+    Inc(baca);
+  End;
+
+**Selection Sort**
+
+Algoritma utamanya adalah sebagai berikut:
+
+baca:=0;
+For i:= 1 To m-1 Do
+Begin
+  tempat:=i;
+  For j:= i+1 To m Do
+    If A[tempat]>A[j] Then
+      tempat:=j;
+      Ganti(A[i],A[tempat]);
+      Inc(baca);
+End;
+
+**5 Insert Sort**
+
+Algoritma utamanya adalah sebagai berikut :
+
+baca:=0;
+For i:= 2 To m Do
+Begin
+  G:=A[i];
+  j:=i-1;
+  A[0]:=G;
+    While G<A[j] Do
+    Begin
+      A[j+1]:=A[j];
+      Dec(j);
+      Inc(baca);
+    End;
+    A[j+1]:=G;
+End;
+
+**Demikian. Terimakasih**
 
