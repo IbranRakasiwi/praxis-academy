@@ -47,9 +47,7 @@ def No2():
         print('Total looping yang perlukan adalah',str(itung-1))
         k = input('ingin melanjutkan permainan (y/n) ? ')
         if k != 'y':
-            print('============================================================================')
-            print('=================================== END ====================================')
-            print('===================== Wahyu Akbar Wibowo (160411100112) ====================')
+  
             break
         else:
             print('OKE LANJUT')
