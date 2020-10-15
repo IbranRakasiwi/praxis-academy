@@ -42,6 +42,7 @@ Kita mendefinisikan sebuah kelas dengan menggunakan kata kunci class diikuti ole
      print("Total karyawan :", Karyawan.jumlah_karyawan)
 
 hasilnya:
+
             Nama : gibran
             Gaji : 1000000
             Nama : adi
