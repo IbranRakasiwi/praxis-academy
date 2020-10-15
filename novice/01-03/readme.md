@@ -57,6 +57,13 @@ hasilnya:
             Gaji : 2000000
             Total karyawan : 3
 
+Variabel jumlah_karyawan adalah variabel kelas yang dibagi ke semua instance/objek dari kelas ini. Variabel ini bisa diakses dari dalam atau luar kelas dengan menggunakan notasi titik, Karyawan.jumlah_karyawan.
+
+Metode __init__() adalah metode konstruktor, yaitu metode khusus yang digunakan Python untuk menginisialisasi pembuatan objek dari kelas tersebut.
+
+Fungsi – fungsi di dalam kelas (disebut metode) pendefinisiannya sama dengan fungsi pada umumnya. Hanya saja, harus ada argumen pertama bernama self. Pada saat pemanggilan fungsi, argumen ini otomatis ditambahkan oleh Python. Anda tidak perlu menambahkannya pada saat memanggil fungsi.
+
+
 ## CARD CRC
 CRC adalah kumpulan kartu indeks standar yang telah dibagi menjadi tiga bagian (class,responsibilities, collaborator). Class merupakan koleksi benda-benda yang sama, responsibilities adalah sesuatu yang diketahui class atau tidak, dan collaborator yang berinteraksi untuk mengisi dari responsibilities.
 
