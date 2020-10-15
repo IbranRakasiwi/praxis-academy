@@ -16,7 +16,7 @@ Pembuatan Kelas
 
 Kita mendefinisikan sebuah kelas dengan menggunakan kata kunci class diikuti oleh nama kelas tersebut. Berikut adalah sintaks pembuatan kelas di Python.
 
-        class Karyawan:
+      class Karyawan:
         '''Dasar kelas untuk semua karyawan'''
         jumlah_karyawan = 0
 
@@ -31,19 +31,20 @@ Kita mendefinisikan sebuah kelas dengan menggunakan kata kunci class diikuti ole
         def tampilkan_profil(self):
             print("Nama :", self.nama)
             print("Gaji :", self.gaji)
-            # Membuat objek pertama dari kelas Karyawan
-            karyawan1 = Karyawan("Sarah", 1000000)
-            # Membuat objek kedua dari kelas Karyawan
-            karyawan2 = Karyawan("Budi", 2000000)
 
-            karyawan1.tampilkan_profil()
-            karyawan2.tampilkan_profil()
-            print("Total karyawan :", Karyawan.jumlah_karyawan)
+     # Membuat objek pertama dari kelas Karyawan
+     karyawan1 = Karyawan("gbran", 1000000)
+     # Membuat objek kedua dari kelas Karyawan
+     karyawan2 = Karyawan("adi", 2000000)
+
+     karyawan1.tampilkan_profil()
+     karyawan2.tampilkan_profil()
+     print("Total karyawan :", Karyawan.jumlah_karyawan)
 
 hasilnya:
-            Nama : Sarah
+            Nama : gibran
             Gaji : 1000000
-            Nama : Budi
+            Nama : adi
             Gaji : 2000000
             Total karyawan : 2
 
