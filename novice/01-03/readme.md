@@ -16,8 +16,8 @@ Pembuatan Kelas
 
 Kita mendefinisikan sebuah kelas dengan menggunakan kata kunci class diikuti oleh nama kelas tersebut. Berikut adalah sintaks pembuatan kelas di Python.
 
-      class Karyawan:
-        '''Dasar kelas untuk semua karyawan'''
+    class Karyawan:
+    '''Dasar kelas untuk semua karyawan'''
         jumlah_karyawan = 0
 
         def __init__(self, nama, gaji):
@@ -32,14 +32,20 @@ Kita mendefinisikan sebuah kelas dengan menggunakan kata kunci class diikuti ole
             print("Nama :", self.nama)
             print("Gaji :", self.gaji)
 
-     # Membuat objek pertama dari kelas Karyawan
-     karyawan1 = Karyawan("gbran", 1000000)
-     # Membuat objek kedua dari kelas Karyawan
-     karyawan2 = Karyawan("adi", 2000000)
+    # Membuat objek pertama dari kelas Karyawan
+    karyawan1 = Karyawan("gibran", 1000000)
+    # Membuat objek kedua dari kelas Karyawan
+    karyawan2 = Karyawan("adi", 2000000)
+    # Membuat objek keketiga dari kelas Karyawan
+    karyawan3 = Karyawan("alan", 2000000)
 
-     karyawan1.tampilkan_profil()
-     karyawan2.tampilkan_profil()
-     print("Total karyawan :", Karyawan.jumlah_karyawan)
+    karyawan1.tampilkan_profil()
+    karyawan2.tampilkan_profil()
+    karyawan3.tampilkan_profil()
+    print("Total karyawan :", Karyawan.jumlah_karyawan)
+
+
+
 
 hasilnya:
 
@@ -47,7 +53,9 @@ hasilnya:
             Gaji : 1000000
             Nama : adi
             Gaji : 2000000
-            Total karyawan : 2
+            Nama : alan
+            Gaji : 2000000
+            Total karyawan : 3
 
 ## CARD CRC
 CRC adalah kumpulan kartu indeks standar yang telah dibagi menjadi tiga bagian (class,responsibilities, collaborator). Class merupakan koleksi benda-benda yang sama, responsibilities adalah sesuatu yang diketahui class atau tidak, dan collaborator yang berinteraksi untuk mengisi dari responsibilities.
