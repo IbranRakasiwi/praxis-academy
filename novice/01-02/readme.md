@@ -429,6 +429,8 @@ sumber:
 
 <https://www.petanikode.com/
 
+<https://sakti.github.io/python101/
+
 <https://www.w3schools.com/python/python_modules.asp
 
 
