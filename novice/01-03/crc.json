@@ -1,0 +1,55 @@
+[
+    {
+      "name": "Warung Kopi",
+      "type": 1,
+      "responsibilities": [
+        "fasilitas",
+        "kopi",
+        "kasir",
+        "pelayan",
+        "makanan"
+      ],
+      "collaborators": [
+        "harga",
+        "pembeli",
+        "tempat"
+      ]
+    },
+    {
+      "name": "Harga",
+      "type": 1,
+      "responsibilities": [
+        "pergekas",
+        "per item"
+      ],
+      "collaborators": [
+        "warung kopi",
+        "pembeli"
+      ]
+    },
+    {
+      "name": "pembeli",
+      "type": 1,
+      "responsibilities": [
+        "cowok",
+        "cewek",
+        "mahasiswa",
+        "pecinta kopi"
+      ],
+      "collaborators": [
+        "harga",
+        "warung kopi",
+        "tempat"
+      ]
+    },
+    {
+      "name": "tempat",
+      "type": 1,
+      "responsibilities": [
+        "alamat"
+      ],
+      "collaborators": [
+        "warung kopi"
+      ]
+    }
+  ]
