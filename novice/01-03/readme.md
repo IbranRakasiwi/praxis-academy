@@ -83,4 +83,47 @@ Class adalah ‘cetak biru’ atau ‘blueprint’ dari object. Class digunakan 
 
 Class di dalam OOP di gunakan untuk membuat sebuah kerangka kerja. bisa di katakan sebagai library. class berisi property dan method. jadi ibaratnya class adalah sebuah wadah yang menyimpan property dan method. dan object yang dihasilkan biasanya berdasarkan isi dari class. jika kita ibaratkan lagi. di dalam OOP PHP. class di tulis dengan awalan syntax class. dan kemudian baru di ikuti dengan nama class nya.
 
+berikut contoh class:
+
+    class MyClass:
+     int = 1,2,3,4,5,6,7,8,9,10,11
+    p1 = MyClass()
+    print(p1.int)
+    
+hasilnya:
+
+  (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11)
+  
+contoh lagi:
+
+    class Person:
+      def __init__(self, nama, umur, kuliah):
+        self.nama = nama
+        self.umur = umur
+        self.kuliah = kuliah
+
+    p1 = Person("gibran", 24, "UNU Jogja" )
+
+    print(p1.nama)
+    print(p1.umur)
+    print(p1.kuliah)
+
+Hasilnya:
+
+    gibran
+    24
+    UNU Jogja
+  
+Fungsi __init __ ()
+
+Contoh di atas adalah kelas dan objek dalam bentuk yang paling sederhana, dan tidak terlalu berguna dalam aplikasi kehidupan nyata.
+
+Untuk memahami arti dari kelas kita harus memahami fungsi built-in __init __ ().
+
+Semua kelas memiliki fungsi yang disebut __init __ (), yang selalu dijalankan saat kelas sedang dimulai.
+
+Gunakan  fungsi __init __ () untuk menetapkan nilai nama, usia dan kuliah.
+
+
+
 
