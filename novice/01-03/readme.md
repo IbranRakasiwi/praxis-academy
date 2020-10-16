@@ -116,7 +116,7 @@ Hasilnya:
   
 Fungsi __init __ ()
 
-Contoh di atas adalah kelas dan objek dalam bentuk yang paling sederhana, dan tidak terlalu berguna dalam aplikasi kehidupan nyata.
+Contoh di atas adalah kelas dan objek dalam bentuk yang paling sederhana,
 
 Untuk memahami arti dari kelas kita harus memahami fungsi built-in __init __ ().
 
