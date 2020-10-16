@@ -124,6 +124,26 @@ Semua kelas memiliki fungsi yang disebut __init __ (), yang selalu dijalankan sa
 
 Gunakan  fungsi __init __ () untuk menetapkan nilai nama, usia dan kuliah.
 
+**Ubah Properti Objek
+
+Anda dapat mengubah properti pada objek seperti ini:
+
+Contoh
+Atur usia p1 menjadi 19.
+
+      p1.age = 19
+
+**Hapus Properti Objek
+
+Anda dapat menghapus properti pada objek dengan menggunakan delkata kunci:
+
+Contoh
+
+Hapus properti kuliah dari objek p1:
+
+    del p1.kuliah
+
+
 
 
 
