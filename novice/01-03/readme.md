@@ -124,7 +124,7 @@ Semua kelas memiliki fungsi yang disebut __init __ (), yang selalu dijalankan sa
 
 Gunakan  fungsi __init __ () untuk menetapkan nilai nama, usia dan kuliah.
 
-**Ubah Properti Objek
+**Ubah Properti Objek**
 
 Anda dapat mengubah properti pada objek seperti ini:
 
@@ -133,7 +133,7 @@ Atur usia p1 menjadi 19.
 
       p1.age = 19
 
-**Hapus Properti Objek
+**Hapus Properti Objek**
 
 Anda dapat menghapus properti pada objek dengan menggunakan delkata kunci:
 
@@ -143,6 +143,18 @@ Hapus properti kuliah dari objek p1:
 
     del p1.kuliah
 
+### Menggunakan Standard Library Python
+
+Standard Library adalah kumpulan modul yang mempermudah dalam melakukan tugas tertentu untuk menghasilkan solusi dari suatu permasalahan tertentu.
+
+Standard library ini sudah termasuk dalam instalasi Python, kita tidak perlu menambahkan atau mendownload lagi.
+
+Sebagai contoh, kita dapat melakukan cukup banyak hal dengan standard library Python
+
+        Program untuk melakukan backup rutin pada Linux, Solaris dan Mac, library standard yang dapat digunakan adalah os, stat, bz2, gzip, time, datetime, tar dan optparse
+        Program Apache log file analysis tool menggunakan modul optparse, urlparse, cgi, datetime, operator, re, sys, and mmap.
+        Program sederhana web API clients cukup menggunakan library urllib/urllib2, ElementTree, dan xml package
+        Program MySQL backup script menggunakan sys, os, time, shutil, glob, tarfile, dan optparse modules.
 
 
 
