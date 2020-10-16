@@ -150,11 +150,10 @@ Standard Library adalah kumpulan modul yang mempermudah dalam melakukan tugas te
 Standard library ini sudah termasuk dalam instalasi Python, kita tidak perlu menambahkan atau mendownload lagi.
 
 Sebagai contoh, kita dapat melakukan cukup banyak hal dengan standard library Python
-
-        Program untuk melakukan backup rutin pada Linux, Solaris dan Mac, library standard yang dapat digunakan adalah os, stat, bz2, gzip, time, datetime, tar dan optparse
-        Program Apache log file analysis tool menggunakan modul optparse, urlparse, cgi, datetime, operator, re, sys, and mmap.
-        Program sederhana web API clients cukup menggunakan library urllib/urllib2, ElementTree, dan xml package
-        Program MySQL backup script menggunakan sys, os, time, shutil, glob, tarfile, dan optparse modules.
+  - Program untuk melakukan backup rutin pada Linux, Solaris dan Mac, library standard yang dapat digunakan adalah os, stat, bz2, gzip, time, datetime, tar dan optparse
+  - Program Apache log file analysis tool menggunakan modul optparse, urlparse, cgi, datetime, operator, re, sys, and mmap.
+  - Program sederhana web API clients cukup menggunakan library urllib/urllib2, ElementTree, dan xml package
+  - Program MySQL backup script menggunakan sys, os, time, shutil, glob, tarfile, dan optparse modules.
 
 
 
