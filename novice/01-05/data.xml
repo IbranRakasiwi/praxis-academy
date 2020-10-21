@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<mahasiswa>
+    <nama>Rena</nama>
+    <alamat>Surabaya</alamat>
+    <jurusan>Teknik Informatika</jurusan>
+
+    <hobi name="Blogging"/>
+    <hobi name="Membaca Buku"/>
+    <hobi name="Nonton Anime"/>
+</mahasiswa>
