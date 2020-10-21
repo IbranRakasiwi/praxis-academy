@@ -18,6 +18,19 @@ Jika data yang akan diserialkan terletak dalam sebuah file dan berisi data datar
 ### repr 
 Metode repr di Python mengambil satu parameter objek dan mengembalikan representasi input yang dapat dicetak:
 
+### Apa itu JSON?
+
+JSON (JavaScript Object Notation) adalah sebuah format data yang digunakan untuk pertukaran dan penyimpanan data.1
+
+Kata kunci yang perlu diingat: “pertukaran & penyimpanan data”
+
+JSON merupakan bagian (subset) dari Javascript. JSON bisa dibaca dengan berbagai macam bahasa pemrograman seperti C, C++, C#, Java, Javascript Perl, Python, dan banyak lagi.
+
+Hal ini membuat JSON menjadi bahasa yang ideal untuk perturakan data antar aplikasi.
+
+JSON bahkan mendominasi pendahulunya si XML (eXtensible Markup Language)…
+
+Kalau dibandingkan dengan XML, JSON lebih sederhana dan mudah dibaca.
 
 ### Python memungkinkan kita melakukan parsing (penguraian) dan manipulasi terhadap file XML dengan DOM API.
 
