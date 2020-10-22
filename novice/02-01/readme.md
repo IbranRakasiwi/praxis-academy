@@ -10,5 +10,9 @@ pemrograman fungsional dapat memiliki reputasi sebagai hal yang musykil, dan leb
 
 meskipun Python bukanlah bahasa fungsional, ia mampu mendukung pemrograman fungsional dengan relatif mudah karena segala sesuatu di Python adalah sebuah objek. Itu berarti bahwa definisi fungsi dapat ditetapkan ke variabel dan diedarkan.
 
+### lambda
+
+"lambda" memungkinkan Anda membuat definisi fungsi dengan cara deklaratif. Kata kunci lambda berasal dari huruf yunani yang digunakan dalam logika matematika formal untuk mendeskripsikan fungsi dan binding variabel secara abstrak,  "lambda calculus" , yang telah ada lebih lama dari pemrograman fungsional. Istilah lain untuk konsep ini adalah "fungsi anonim", karena fungsi lambda dapat digunakan secara in-line tanpa memerlukan nama. Jika Anda memilih untuk menetapkan fungsi anonim ke variabel, fungsinya persis sama seperti fungsi lainnya.
+
 
 
