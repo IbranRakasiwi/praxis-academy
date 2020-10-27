@@ -1,5 +1,5 @@
-from django.http import HttpResponse
+#from django.http import HttpResponse
+from django.shortcuts import render
 
-def jual (request):
-    return HttpResponse ("Menjual segala macam peralatan manusia")
-
+def index (request):
+    return render(request, 'tamplite.html')
