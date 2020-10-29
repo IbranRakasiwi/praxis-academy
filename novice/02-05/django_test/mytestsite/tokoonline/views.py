@@ -37,7 +37,7 @@ def edit(req, id):
         nama_barang=req.POST['nama_barang'],
         ukuran=req.POST['ukuran'],
         nama_pemesan=req.POST['nama_pemesan'],
-        alamat_pemesan=req.POST['alamat_pemesam'])
+        alamat_pemesan=req.POST['alamat'])
         return redirect('/')
     task = models.Online.objects.filter(pk=id).first()
     return render(req, 'task/edit.html',
