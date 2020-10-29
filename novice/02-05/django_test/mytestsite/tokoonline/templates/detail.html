@@ -22,18 +22,12 @@
                 </tr>
               </thead>
               <tbody>
-                {%for data in toko %}
                  <tr>
-                     <td>{{data.nomor_id}}</td>
-                     <td>{{data.nama_barang}}</td>
-                     <td>{{data.ukuran}}</td>
-                     <td>{{data.nama_pemesan}}</td>
-                     <td style="text-align: center;">
-                         <a class="btn btn-sm btn-primary" href="/{{data.id}}/edit" onclick="edit_book(-)"><i class="glyphicon glyphicon-pencil"></i></a>
-                         <a class="btn btn-sm btn-danger" href="/{{data.id}}/" onclick="delete_book(-)"><i class="glyphicon glyphicon-trash"></i></a>
-                     </td>
+                     <td>{{toko.nomor_id}}</td>
+                     <td>{{toko.nama_barang}}</td>
+                     <td>{{dtoko.ukuran}}</td>
+                     <td>{{toko.nama_pemesan}}</td>
                  </tr>
-                 {% endfor %}
               </tbody>
             </table>
 

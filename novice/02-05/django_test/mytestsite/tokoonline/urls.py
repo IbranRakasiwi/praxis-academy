@@ -1,7 +1,8 @@
-from django.urls import tamplites
-from . import tamplites
+from django.urls import path
+from . import views
 
 urlpatterns = [
-    path('',views.tamplite, name='tamplite.html'),     
-
+    path('',views.index),
+    path('<id>/', views.detail),
+    path('<id>/edit', views.edit),
 ]
