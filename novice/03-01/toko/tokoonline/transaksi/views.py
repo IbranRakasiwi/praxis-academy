@@ -15,9 +15,9 @@ def tambah(req):
         models.Online.objects.create(
         nama_barang=req.POST['nama_barang'],
         ukuran_barang=req.POST['ukuran_barang'],
-        nama_toko=req.POST['nama_toko'],
-        jumlah_barang=req.POST['jumlah_barang'],
-        )
+        nama_pemesan=req.POST['nama_pemesan'],
+        alamat_pemesan=req.POST['alamat_pemesan'],
+        jumlah_pemesanan=req.POST['jumlah_pemesanan'],)
         return redirect('/transaksi/')
     task = models.Online.objects.all()
     return render(req, 'transaksi/tambah.html',
@@ -35,8 +35,9 @@ def edit(req, id):
         models.Online.objects.filter(pk=id).update(
         nama_barang=req.POST['nama_barang'],
         ukuran_barang=req.POST['ukuran_barang'],
-        nama_toko=req.POST['nama_toko'],
-        jumlah_barang=req.POST['jumlah_barang'])
+        nama_pemesan=req.POST['nama_pemesan'],
+        alamat_pemesan=req.POST['alamat_pemesan'],
+        jumlah_pemesanan=req.POST['jumlah_pemesanan'])
         return redirect('/transaksi/')
     task = models.Online.objects.filter(pk=id).first()
     return render(req, 'transaksi/edit.html',

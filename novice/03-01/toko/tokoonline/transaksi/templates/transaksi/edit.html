@@ -100,8 +100,8 @@
 
 <body>
 	<div class="signup-form">
-		<h2 class="text-center">Edit Tansaksi</h2>
-		<p class="text-center">Silahkan Masukan Transaksi</p>
+		<h2 class="text-center">Edit Transaksin</h2>
+		<p class="text-center">Silahkan Masukan Pembaharuan Data</p>
 		<hr>
 		<div class="container">
 			<form method="POST">
@@ -114,14 +114,19 @@
 						required="required">
 				</div>
 				<div class="form-group">
-					<input type="text" class="form-control" name="ukuran_barang" value="{{data.ukuran_barang}}" placeholder="Ukuran Barang" required="required">
-				</div>
-				<div class="form-group">
-					<input type="text" class="form-control" name="nama_toko" value="{{data.nama_toko}}" placeholder="Nama Barang"
+					<input type="text" class="form-control" name="ukuran_barang" value="{{data.ukuran_barang}}" placeholder="Ukuran Barang" 
 						required="required">
 				</div>
 				<div class="form-group">
-					<input type="text" class="form-control" name="jumlah_barang" value="{{data.jumlah_barang}}" placeholder="Jumlah Barang"
+					<input type="text" class="form-control" name="nama_pemesan" value="{{data.nama_pemesan}}" placeholder="Nama Pemesan"
+						required="required">
+				</div>
+				<div class="form-group">
+					<input type="text" class="form-control" name="alamat_pemesan" value="{{data.alamat_pemesan}}" placeholder="Alamat Pemesan"
+						required="required">
+				</div>
+				<div class="form-group">
+					<input type="text" class="form-control" name="jumlah_pemesanan" value="{{data.jumlah_pemesanan}}" placeholder="Jumlah Pemesanan"
 						required="required">
 				</div>
 				<div class="form-group">

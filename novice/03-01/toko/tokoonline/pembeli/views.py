@@ -16,6 +16,7 @@ def tambah(req):
         nama_barang=req.POST['nama_barang'],
         ukuran_barang=req.POST['ukuran_barang'],
         nama_pemesan=req.POST['nama_pemesan'],
+        alamat_pemesan=req.POST['alamat_pemesan'],
         jumlah_pemesanan=req.POST['jumlah_pemesanan'],)
         return redirect('/pembeli/')
     task = models.Online.objects.all()
