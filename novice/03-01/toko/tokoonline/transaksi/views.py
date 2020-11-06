@@ -44,7 +44,6 @@ def edit(req, id):
     { 'data' : task,
     })
 
-
 def delete(req, id):
     task = models.Online.objects.filter(pk=id).delete()
     return redirect('/transaksi/')
