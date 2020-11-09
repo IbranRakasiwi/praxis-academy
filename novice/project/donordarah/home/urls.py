@@ -5,6 +5,6 @@ from . import views
 
 urlpatterns = [
     path('',views.index),
-    path('tambah/', views.tambah),
+    # path('tambah/', views.tambah, name='tambah'),
 
 ]
