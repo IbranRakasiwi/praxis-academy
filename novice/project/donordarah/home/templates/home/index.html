@@ -1,36 +1,38 @@
-      {% load static %}
-      <!DOCTYPE html>
-      <html lang="en">
-      <title>W3.CSS Template</title>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <style>
-      body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
-      .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
-      .fa-anchor,.fa-coffee {font-size:200px}
-      </style>
-      <body>
-      
+<!DOCTYPE html>
+<html>
+<title>Web Donor Darah</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-red.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body id="myPage">
+
+<!-- Sidebar on click -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
+    <i class="fa fa-remove"></i>
+  </a>
+</nav> 
       <!-- Navbar -->
       <div class="w3-top">
-        <div class="w3-bar w3-red w3-card w3-left-align w3-large">
-          <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-          <a href="/home" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
-          <a href="/darah" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">DONOR DARAH</a>
-          <div class="w3-dropdown-hover w3-hide-small">
-            <button class="w3-button" title="Notifications" class="center">STOK DARAH <i class="fa fa-caret-down"></i></button>     
-            <div class="w3-dropdown-content w3-card-4 w3-bar-block">
-              <a href="#" class="w3-bar-item w3-button">Link</a>
-              <a href="#" class="w3-bar-item w3-button">Link</a>
-              <a href="#" class="w3-bar-item w3-button">Link</a>
-            </div>
-          </div>
-          <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">DATA PENDONOR</a>
-          <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">ADMIN</a>
+        <div class="w3-bar w3-theme-d2 w3-left-alignclass=">
+         <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+         <a href="/home" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>HOME</a>
+         <a href="login/" class="w3-bar-item w3-button w3-hide-small w3-hover-white">ADMIN</a>
+         <a href="/darah" class="w3-bar-item w3-button w3-hide-small w3-hover-white">DONOR DARAH</a>
+         <a href="/data" class="w3-bar-item w3-button w3-hide-small w3-hover-white">DATA PENDONOR</a>
+           <div class="w3-dropdown-hover w3-hide-small">
+           <button class="w3-button" title="Notifications">STOK DARAH<i class="fa fa-caret-down"></i></button>     
+           <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+             <a href="#" class="w3-bar-item w3-button">Yogyakarta</a>
+             <a href="#" class="w3-bar-item w3-button">Kulon Progo</a>
+             <a href="#" class="w3-bar-item w3-button">Gunung Kidul</a>
+             <a href="#" class="w3-bar-item w3-button">Sleman</a>
+             <a href="#" class="w3-bar-item w3-button">Bantul</a>
+           </div>
+         </div>
+         <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>
         </div>
       </div>
       <div class="w3-container w3-center">
@@ -44,20 +46,21 @@
       <a href="login/" class="w3-button w3-red w3-border-red w3-round-large">DAFTAR</a>
     </div>
   </div>
-  <br><br><br><br>
+  <br><br><br><br><br>
   <!-- Grid -->
   <div class="w3-row-padding" id="about">
     <div class="w3-center w3-padding-64">
-      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">BERITA</span>
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">INFORMASI PMI DAERAH ISTIMEWA INDONESIA</span>
     </div>
 
     <div class="w3-third w3-margin-bottom">
       <div class="w3-card-4">
-        <img src="/w3images/team1.jpg" alt="John" style="width:100%">
+        <img src="https://lh3.googleusercontent.com/proxy/INouLBdaqe_zc1cDOa1ZEn0vOGbt-zWBjW3F05ywk61BzEqDZMS37rduutmPk254r-_Nqyxa7NqEog4Ss4MS6uGYK7dZoqNeXqAmh0I8a1C2ld-gO78eHrcK-NBSq5yHDuOrCGtTXAdxq6wMQgU" alt="John" style="width:100%">
         <div class="w3-container">
-          <h3>Jane Doe</h3>
-          <p class="w3-opacity">CEO & Founder</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <h3>PMI BANTUL</h3>
+          <p class="w3-opacity">Alamat PMI Bantul</p>
+          <p>Alamat: Komplek Lapangan Dwi Windu, Jl. Jend. Sudirman No.1, Babadan, Bantul, Kec. Bantul, Bantul, Daerah Istimewa Yogyakarta 55711
+          </p>
           <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
         </div>
       </div>
@@ -65,11 +68,11 @@
 
     <div class="w3-third w3-margin-bottom">
       <div class="w3-card-4">
-        <img src="IMG" alt="Mike" style="width:100%">
+        <img src="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_520,h_397/https://www.doktervaksin.com/wp-content/uploads/2020/02/Klinik-Pratama-24-Jam-PMI-DIY-520x397.jpg" alt="Mike" style="width:100%">
         <div class="w3-container">
-          <h3>Mike Ross</h3>
-          <p class="w3-opacity">Art Director</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <h3>PMI Daerah Istimewa Yogyakarta</h3>
+          <p class="w3-opacity">Alamat PMI Kota Yogyakarta</p>
+          <p>Alamat: Jl. Tegal Gendu No.25, Prenggan, Kec. Kotagede, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55163</p>
           <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
         </div>
       </div>
@@ -77,11 +80,11 @@
 
     <div class="w3-third w3-margin-bottom">
       <div class="w3-card-4">
-        <img src="/w3images/team3.jpg" alt="Jane" style="width:100%">
+        <img src="https://kulonprogokab.go.id/v3/portal/files/news/normal/20151024121522@7.JPG" alt="Jane" style="width:100%">
         <div class="w3-container">
-          <h3>John Doe</h3>
-          <p class="w3-opacity">Designer</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <h3>PMI KULON PROGO</h3>
+          <p class="w3-opacity">ALAMAT PMI KULON PROGO</p>
+          <p>Alamat: Jalan Bhayangkara, Serut, Wates, Pengasih, Serut, Pengasih, Kec. Pengasih, Kabupaten Kulon Progo, Daerah Istimewa Yogyakarta 55651</p>
           <p><button class="w3-button w3-light-grey w3-block">Selengkapnya</button></p>
         </div>
       </div>
@@ -89,28 +92,41 @@
   </div>
    <!-- Contact -->
    <div class="w3-container" style="padding:128px 16px" id="about">
-    <h3 class="w3-center">ABOUT THE COMPANY</h3>
-    <p class="w3-center w3-large">Key features of our company</p>
+    <h3 class="w3-center">INFORMASI KESEHATAN</h3>
+    <p class="w3-center w3-large">Simak penjelasan dibawah ini</p>
     <div class="w3-row-padding w3-center" style="margin-top:64px">
       <div class="w3-quarter">
-        <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
-        <p class="w3-large">Responsive</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+        <i class="fa fa-medkit w3-margin-bottom w3-jumbo w3-center"></i>
+        <p class="w3-large">Medkit</p>
+        <p>berfungsi untuk menambahkan atau memulihkan Health Point kalian. 
+          Semakin banyak kalian membawa Medkit, 
+          semakin bagus dan kemungkinan kalian mendapatkan booyah semakin besar.</p>
       </div>
       <div class="w3-quarter">
-        <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
-        <p class="w3-large">Passion</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+        <i class="fa fa-heartbeat w3-margin-bottom w3-jumbo"></i>
+        <p class="w3-large">Darah</p>
+        <p>Darah adalah cairan yang terdapat pada semua mahkluk hidup 
+          yang berfungsi mengirimkan zat-zat dan oksigen yang dibutuhkan oleh jaringan tubuh, 
+          mengangkut bahan-bahan kimia hasil metabolisme, 
+          dan juga sebagai pertahanan tubuh terhadap virus atau bakteri.</p>
       </div>
       <div class="w3-quarter">
-        <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
-        <p class="w3-large">Design</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+        <i class="fa fa-stethoscope w3-margin-bottom w3-jumbo"></i>
+        <p class="w3-large">Stetoskop</p>
+        <p>Stetoskop merupakan alat bantu pemeriksaan yang umum digunakan oleh dokter. 
+          Alat ini berfungsi untuk mendengarkan suara dari dalam tubuh, 
+          salah satunya untuk mendengar suara detak jantung dan mendeteksi kelainannya</p>
       </div>
       <div class="w3-quarter">
-        <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
-        <p class="w3-large">Support</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+        <i class="fa fa-ambulance w3-margin-bottom w3-jumbo"></i>
+        <p class="w3-large">Ambulan</p>
+        <p>Kendaraan ini merupakan salah satu prioritas di lalu lintas 
+          selain Pemadam kebakaran yang memiliki hak untuk melanggar peraturan lalu lintas 
+          seperti menerobos lampu merah, melawan arah, dan melalui lajur bahu jalan, 
+          dan sudah dijelaskan dalam Undang-Undang Perlalulintasan 
+          bahwa kendaraan seperti Ambulans dan kendaraan gawat darurat 
+          yang lainnya harus diberi kenyamanan dan diberi lintasan untuk di jalan raya 
+          guna menyelamatkan nyawa.</p>
       </div>
     </div>
   </div>
