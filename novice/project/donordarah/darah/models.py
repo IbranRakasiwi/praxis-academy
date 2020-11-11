@@ -6,3 +6,6 @@ class Pasien(models.Model):
     jenis_kelamin = models.CharField(max_length=6, null=True,blank=False)
     alamat_pasien = models.CharField(max_length=100, null=True,blank=False)
     no_hp = models.IntegerField(null=True,blank=False)
+
+    def __str__(self):
+        return self.nama_pasien
